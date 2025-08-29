@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chan-py"
+version = "0.1.0"
+description = "A Python library for Chan (缠论) analysis"
+authors = [{name = "Vespa314"}]
+dependencies = [
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "numpy>=1.23.0"
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}
