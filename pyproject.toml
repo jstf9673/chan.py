@@ -7,7 +7,7 @@ name = "chan-py"
 version = "0.1.0"
 description = "A Python library for Chan (缠论) analysis"
 authors = [{name = "Vespa314"}]
-license = "MIT"  # 修正为简单字符串
+license = "MIT"
 requires-python = ">=3.8"
 dependencies = [
     "pandas>=2.0.0",
@@ -16,5 +16,5 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["chan_py"]  # 明确指定包名
-package-dir = {"" = "."}  # 包目录映射
+packages = ["chan_py", "chan_py.Common", "chan_py.Plot", "chan_py.BuySellPoint", "chan_py.Bi", "chan_py.ZS", "chan_py.Seg", "chan_py.Math", "chan_py.Debug", "chan_py.Image", "chan_py.KLine", "chan_py.Script", "chan_py.DataAPI", "chan_py.Combiner", "chan_py.ChanModel"]
+package-dir = {"" = "."}

@@ -5,7 +5,7 @@ import sys
 from collections import defaultdict
 from typing import Dict, Iterable, List, Optional, Union
 
-from BuySellPoint.BS_Point import CBS_Point
+from chan_py.BuySellPoint.BS_Point import CBS_Point
 from ChanConfig import CChanConfig
 from Common.CEnum import AUTYPE, DATA_SRC, KL_TYPE
 from Common.ChanException import CChanException, ErrCode
